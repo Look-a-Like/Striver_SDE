@@ -20,6 +20,7 @@ public:
                 {
                     zeroRows[i] = true;
                     zeroColumns[j] = true;
+                    continue;
                 }
             }
         }
